@@ -7,15 +7,26 @@ body {
   align-items: center;
   justify-content: center;
 }
-.btn {
-  padding: 5px;
-  margin-top: 10px;
-  background-color: lightblue;
-  outline: none;
-  border: 0px;
+
+.copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copy > svg {
+  margin-right: 2px;
 }
 
 #result {
   margin: 10px 0px;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.howItWorks > .question {
+  font-weight: bold;
+}
+
+.show {
+  display: none;
 }
