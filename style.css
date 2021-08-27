@@ -27,6 +27,9 @@ body {
   font-weight: bold;
 }
 
-.show {
+.answer {
   display: none;
+}
+.show {
+  display: block;
 }
